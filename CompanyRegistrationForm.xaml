@@ -1,0 +1,40 @@
+﻿<Window x:Class="InventoryManager.CompanyRegistrationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryManager"
+        mc:Ignorable="d"
+        Title="Company Registration Form" Height="750" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border Height="750" VerticalAlignment="Top" Background="Black" RenderTransformOrigin="0.505,0.475">
+
+        </Border>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Width="550">
+                <Image Source="Images/InventoryManager(2).jpg" Height="162" VerticalAlignment="Top" Margin="35,10" RenderTransformOrigin="0.555,0.509"/>
+            </StackPanel>
+            <StackPanel Width="550">
+                <TextBlock Text="Company Registration Form" Foreground="MintCream" HorizontalAlignment="Center" FontFamily="Rockwell" FontSize="20">
+
+                </TextBlock>
+                <TextBlock Margin="10" Width="500" Foreground="MintCream" HorizontalAlignment="Center" TextAlignment="Center" VerticalAlignment="Top" FontSize="14" FontFamily="Rockwell" Text="Please enter your company details below:"></TextBlock>
+            </StackPanel>
+            <StackPanel Width="650" Margin="10">
+                <TextBlock Margin="10" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" TextAlignment="Center" Text="Company name:"></TextBlock>
+                <TextBox Margin="0" Background="Black" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" Name="CompanyName" Height="20"></TextBox>
+                <TextBlock Margin="10" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" TextAlignment="Center" Text="Industry:"></TextBlock>
+                <!--<TextBox Margin="0" Background="Black" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" Name="CompanyIndustry" Height="20"></TextBox>-->
+                <ComboBox Margin="0" Width="650" Name="CompanyIndustry" Foreground="Black" Background="MintCream" FontFamily="Rockwell" FontSize="15"/>
+                <TextBlock Margin="10" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" TextAlignment="Center" Text="CEO:"></TextBlock>
+                <TextBox Margin="0" Background="Black" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" Name="CompanyCEO" Height="20"></TextBox>
+                <TextBlock Margin="10" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" TextAlignment="Center" Text="Company slogan:"></TextBlock>
+                <TextBox Margin="0" Background="Black" Foreground="MintCream" FontSize="15" FontFamily="Rockwell" Name="CompanySlogan" Height="20"></TextBox>
+                <TextBlock Margin="0 20 0 0" Foreground="MintCream" TextAlignment="Center" FontFamily="Rockwell" FontSize="14" Text="Once you have completed registration, you will be brought back to the login page,"></TextBlock>
+                <TextBlock Margin="0 0 0 0" Foreground="MintCream" TextAlignment="Center" FontFamily="Rockwell" FontSize="14" Text="click the Sign Up button, then enter your company name so you can register you account"></TextBlock>
+                <Button Margin="20" Width="180" Height="30" FontFamily="Rockwell" FontSize="15" Background="MintCream" Foreground="Black" Click="Register_Company_Button_Click" >Register Company</Button>
+                <Button Margin="20" Height="30" Width="100" FontFamily="Rockwell" Background="MintCream" Foreground="Black" FontSize="15" Click="Back_Button_Click">Back</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

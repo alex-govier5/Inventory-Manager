@@ -1,0 +1,32 @@
+﻿<Window x:Class="InventoryManager.InventoryPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryManager"
+        mc:Ignorable="d"
+        Title="Inventory Manager" Height="1000" Width="920" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border Height="1000" VerticalAlignment="Top" Background="Black" RenderTransformOrigin="0.505,0.475">
+
+        </Border>
+        <ScrollViewer>
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Margin="0 222 0 0" Name="Departments1" Width="300" Orientation="Vertical" VerticalAlignment="Top">
+                    <Button Margin="0 0 0 10" Name="Suppliers" Width="250" Height="30" Background="MintCream" Foreground="Black" FontFamily="Rockwell" FontSize="15" Content="Suppliers" Click="Suppliers_Click"></Button>
+                </StackPanel>
+                <StackPanel Name="Departments2" Width="300" Orientation="Vertical">
+                    <Image Source="Images/InventoryManager(2).jpg" Height="162" Width="300" VerticalAlignment="Top"/>
+                    <TextBlock Name="Title" FontFamily="Rockwell" FontSize="21" Foreground="MintCream" TextAlignment="Center" Margin="0"></TextBlock>
+                    <TextBlock Name="Title2" Text="Departments" FontFamily="Rockwell" FontSize="21" Foreground="MintCream" TextAlignment="Center" Margin="0"></TextBlock>
+                    <Button Height="30" Width="250" FontFamily="Rockwell" FontSize="15" Background="MintCream" Foreground="Black" Margin="10" Click="Add_Button_Click">Add Department</Button>
+                </StackPanel>
+                <StackPanel Margin="0 222 0 0" Name="Departments3" Width="300" Orientation="Vertical" VerticalAlignment="Top">
+                    <Button Margin="0 0 0 10" Name="Statements" Width="250" Height="30" Background="MintCream" Foreground="Black" FontFamily="Rockwell" FontSize="15" Content="Statements" Click="Statements_Click"></Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        
+        
+    </Grid>
+</Window>

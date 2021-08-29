@@ -1,0 +1,32 @@
+﻿<Window x:Class="InventoryManager.RegistrationForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryManager"
+        mc:Ignorable="d"
+        Title="Registration Form" Height="580" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Border Height="550" VerticalAlignment="Top" Background="Black" RenderTransformOrigin="0.505,0.475">
+
+        </Border>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Width="550">
+                <Image Source="Images/InventoryManager(2).jpg" Height="162" VerticalAlignment="Top" Margin="35,10" RenderTransformOrigin="0.555,0.509"/>
+            </StackPanel>
+            <StackPanel Width="550">
+                <TextBlock Text="Registration Form" Foreground="MintCream" HorizontalAlignment="Center" FontFamily="Rockwell" FontSize="20">
+                    
+                </TextBlock>
+                <TextBlock Margin="10" Width="500" Foreground="MintCream" HorizontalAlignment="Center" TextAlignment="Center" VerticalAlignment="Top" FontSize="14" FontFamily="Rockwell" Text="Are you registering a new company or registering for an existing company?"></TextBlock>
+            </StackPanel>
+            <StackPanel Width="650" Margin="10">
+                <Button Background="MintCream" Width="150" Height="30" FontFamily="Rockwell" FontSize="15" Foreground="Black" Click="NewCompany_Button_Click">New Company</Button>
+                <TextBlock Margin="20" Foreground="MintCream" FontSize="14" FontFamily="Rockwell" TextAlignment="Center" Text="If you are registering for a pre-existing company, please select the company name below:"></TextBlock>
+                <ComboBox Margin="10" Background="MintCream" Foreground="Black" FontSize="15" FontFamily="Rockwell" Name="Company" Height="25"></ComboBox>
+                <Button Margin="20" Background="MintCream" Width="150" Height="30" FontSize="15" FontFamily="Rockwell" Foreground="Black" Click="Verify_Button_Click">Verify</Button>
+                <Button Margin="20" Height="30" Width="120" FontFamily="Rockwell" Background="MintCream" Foreground="Black" FontSize="15" Click="Back_Button_Click">Back</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

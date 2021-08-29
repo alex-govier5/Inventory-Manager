@@ -1,0 +1,61 @@
+﻿<Window x:Class="InventoryManager.SinglePurchase"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryManager"
+        mc:Ignorable="d"
+        Title="Purchases Receipt" Height="1000" Width="1630" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ScrollViewer>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Width="533">
+
+                    </StackPanel>
+                    <StackPanel Width="533">
+                        <TextBlock FontFamily="Times New Roman" FontSize="20" Foreground="Black" Name="Title" TextAlignment="Center"></TextBlock>
+                        <TextBlock Margin="0 0 0 20" FontFamily="Times New Roman" FontSize="20" Foreground="Black" Text="Purchase Receipt"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Width="533">
+                        <Button FontFamily="Times New Roman" FontSize="15" Content="Back" Background="White" Foreground="Black" Width="80" Height="30" Click="Button_Click" BorderBrush="Black" HorizontalAlignment="Right"></Button>
+                    </StackPanel>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <StackPanel Name="ID" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Transaction Number:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="Date" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Date:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="Time" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Time:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="Product" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Product:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="Supplier" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Supplier:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="Quantity" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Quantity Purchased:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="PPI" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Price per Item:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                    <StackPanel Name="Total" Width="200" Height="800" VerticalAlignment="Top">
+                        <TextBlock FontFamily="Times New Roman" FontSize="15" Foreground="Black" Text="Total Paid:"  TextAlignment="Center"></TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Height="80" Orientation="Vertical">
+                    <TextBlock Width="200" HorizontalAlignment="Right" FontFamily="Times New Roman" FontSize="15" Text="___________________________"></TextBlock>
+                    <TextBlock Width="200" HorizontalAlignment="Right" FontFamily="Times New Roman" FontSize="15" Text="Total:"></TextBlock>
+                    <TextBlock Margin="10" Width="200" HorizontalAlignment="Right" FontFamily="Times New Roman" FontSize="15" Name="Final" TextAlignment="Right"></TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+        
+
+    </Grid>
+</Window>

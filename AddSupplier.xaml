@@ -1,0 +1,31 @@
+﻿<Window x:Class="InventoryManager.AddSupplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InventoryManager"
+        mc:Ignorable="d"
+        Title="Add Supplier" Height="750" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border Height="1050" VerticalAlignment="Top" Background="Black" RenderTransformOrigin="0.505,0.475">
+
+        </Border>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Width="350">
+                <Image Source="Images/InventoryManager(2).jpg" Height="162" VerticalAlignment="Top" Margin="35,10" RenderTransformOrigin="0.555,0.509"/>
+                <TextBlock FontFamily="Rockwell" FontSize="20" Margin="10" Foreground="MintCream" Text="Add Supplier" TextAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Rockwell" FontSize="15" Margin="10" Foreground="MintCream" Text="Please enter the supplier details below:" TextAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="Rockwell" FontSize="15" Margin="10 30 10 10" Foreground="MintCream" Text="Supplier ID:" TextAlignment="Center"></TextBlock>
+                <TextBox Background="Black" Foreground="MintCream" FontFamily="Rockwell" FontSize="15" Margin="10" Name="SupplierID"></TextBox>
+                <TextBlock FontFamily="Rockwell" FontSize="15" Margin="10 10 10 10" Foreground="MintCream" Text="Supplier Name:" TextAlignment="Center"></TextBlock>
+                <TextBox Background="Black" Foreground="MintCream" FontFamily="Rockwell" FontSize="15" Margin="10" Name="SupplierName"></TextBox>
+                <TextBlock FontFamily="Rockwell" FontSize="15" Margin="10" Foreground="MintCream" Text="Number of Products Supplied:" TextAlignment="Center"></TextBlock>
+                <TextBox Background="Black" Foreground="MintCream" FontFamily="Rockwell" FontSize="15" Margin="10" Name="SupplierQuantity"></TextBox>
+
+                <Button Margin="30" Height="30" Width="150" Background="MintCream" Foreground="Black" FontFamily="Rockwell" FontSize="14" Content="Add Supplier" Click="Add_Button_Click"></Button>
+                <Button Margin="0" Height="30" Width="120" Background="MintCream" Foreground="Black" FontFamily="Rockwell" FontSize="14" Content="Back" Click="Back_Button_Click"></Button>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
