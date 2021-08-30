@@ -20,13 +20,13 @@ This application will allow you to manage an inventory and see all relevant info
 ![Login](https://raw.githubusercontent.com/alex-govier5/Inventory-Manager/master/Login.PNG "Login") 
 
 ### Departments
-![Departments](Deps.png "Departments")
+![Departments](https://raw.githubusercontent.com/alex-govier5/Inventory-Manager/master/Deps.PNG "Departments")
 
 ### Inventory
-![Inventory](Inv.png "Inventory")
+![Inventory](https://raw.githubusercontent.com/alex-govier5/Inventory-Manager/master/Inv.PNG "Inventory")
 
 ### Receipt
-![Receipt](rec.png "Receipt")
+![Receipt](https://raw.githubusercontent.com/alex-govier5/Inventory-Manager/master/rec.PNG "Receipt")
 
 ## Installation
 
