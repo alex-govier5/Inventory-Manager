@@ -17,16 +17,16 @@ This application will allow you to manage an inventory and see all relevant info
 ## Screenshots
 
 ### Login
-![alt text](Login.png "Login") 
+![Login](Login.png "Login") 
 
 ### Departments
-![alt text](Deps.png "Departments")
+![Departments](Deps.png "Departments")
 
 ### Inventory
-![alt text](Inv.png "Inventory")
+![Inventory](Inv.png "Inventory")
 
 ### Receipt
-![alt text](rec.png "Receipt")
+![Receipt](rec.png "Receipt")
 
 ## Installation
 
