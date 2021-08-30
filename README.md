@@ -30,4 +30,4 @@ This application will allow you to manage an inventory and see all relevant info
 
 ## Installation
 
-You can install the application for your Windows machine by clicking [here](InventoryManager.zip). Unzip the file and click the setup.exe file to begin installation. The setup wizard will help with the rest. 
+You can install the application for your Windows machine by clicking [here](https://raw.githubusercontent.com/alex-govier5/Inventory-Manager/master/InventoryManager.zip). Unzip the file and click the setup.exe file to begin installation. The setup wizard will help with the rest. 
