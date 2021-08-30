@@ -17,7 +17,7 @@ This application will allow you to manage an inventory and see all relevant info
 ## Screenshots
 
 ### Login
-![Login](Login.png "Login") 
+![Login](https://raw.githubusercontent.com/alex-govier5/Inventory-Manager/master/Login.PNG "Login") 
 
 ### Departments
 ![Departments](Deps.png "Departments")
